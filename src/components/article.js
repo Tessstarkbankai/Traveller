@@ -11,6 +11,7 @@ const Article = (props) => {
       <div className="article-content">
         <div className="article-heading">
           <h2 className="article-header">{props.header}</h2>
+          <h1>hey</h1>
           <p className="article-description">{props.description}</p>
         </div>
         <button className="button-arrow button">
